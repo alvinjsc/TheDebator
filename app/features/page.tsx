@@ -13,7 +13,7 @@ export default function FeaturesPage() {
           <div className="title-row">
             <h1 className="page-title">Features</h1>
             <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-              <Link href="/" className="persona-btn persona-inactive">🏠</Link>
+              <Link href="/" className="persona-btn persona-inactive" style={{ transition: 'all 0.3s ease-in-out' }}>🏠</Link>
               <ThemeToggle />
             </div>
           </div>

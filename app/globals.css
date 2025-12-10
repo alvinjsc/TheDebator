@@ -118,10 +118,13 @@ html.light .persona-selector {
 
 a.persona-btn {
   text-decoration: none;
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
 }
 
 a.persona-btn:hover {
   text-decoration: none;
+  transform: scale(1.05);
 }
 
 .persona-active-professor {

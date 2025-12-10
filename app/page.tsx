@@ -75,7 +75,7 @@ export default function Home() {
           <div className="title-row">
             <h1 className="page-title">Debate Simulator</h1>
             <div style={{ display: 'flex', gap: '0.75rem', alignItems: 'center' }}>
-              <Link href="/features" className="persona-btn persona-inactive">ℹ️</Link>
+              <Link href="/features" className="persona-btn persona-inactive" style={{ transition: 'all 0.3s ease-in-out' }}>ℹ️</Link>
               <ThemeToggle />
             </div>
           </div>
