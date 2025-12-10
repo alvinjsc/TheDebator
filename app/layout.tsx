@@ -1,5 +1,6 @@
 // app/layout.tsx
 import { Inter } from 'next/font/google';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import Providers from './providers'; // default export from providers.tsx
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <Providers>
           {children}
         </Providers>
+        <Analytics />
       </body>
     </html>
   );
