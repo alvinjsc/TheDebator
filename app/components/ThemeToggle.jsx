@@ -23,6 +23,7 @@ export default function ThemeToggle() {
     <button
       onClick={() => setTheme(isDark ? 'light' : 'dark')}
       className="persona-btn persona-inactive"
+      style={{ transition: 'all 0.3s ease-in-out' }}
     >
       {isDark ? '☀️' : '🌙'}
     </button>
